@@ -1,20 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- *main -producce a program that print various types of computer memory and produce exact values as given
- *
- *Return 0 (Success) 
- */
+  *main - Entry point
+  *Return 0 (Success) 
+  */
 int main(void)
 {
-	char a;
-	int b;
-	long int c;
-	long long int d,
-	float f;
-printf("size of a char: %lu byte(s)\n", (unsigned long)sizeof(a);
-printf("size of a int: %lu byte(s)\n", (unsigned long)sizeof(b);
-printf("size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c);
-printf("size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d);
-printf("size of a float: %lu byte(s)\n", (unsigned long)sizeof(f);
-return (0);
+	printf("size of a char: %d byte(s)", sizeof(char));
+	printf("size of a int: %d byte(s)"' sizeof(int));
+	printf("size of a long int: %d bytes", sizeof(long int));
+	printf("size of a long long int: %d bytes", sizeof(long long int));
+	printf("size of a float: %d bytes", sizeof(float));
+	return (0);
 }
