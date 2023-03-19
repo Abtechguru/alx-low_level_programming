@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S <100-intel.c> -o <$CFILE.s>
+gcc -S <$CFILE.c> -o <$100-intel.s>
